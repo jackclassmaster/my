@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:hint="inputcount"
+            android:textSize="50sp"
+            ></EditText>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textSize="50sp"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/dollar"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="dollar"
+            android:onClick="Onclick"></Button>
+        <Button
+            android:id="@+id/won"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="Onclick"
+            android:text="won"></Button>
+        <Button
+            android:id="@+id/pound"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="Onclick"
+            android:text="pound"></Button>
+        <Button
+            android:id="@+id/get"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="open"
+            android:text="new page"></Button>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
